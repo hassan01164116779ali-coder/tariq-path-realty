@@ -35,33 +35,9 @@ const Index = () => {
 
   const properties = [
     {
-      image: property1,
-      title: "شقة سكنية فاخرة",
-      location: "كمبوند ريفيرا - الشيخ زايد",
-      price: "3,250,000 ج.م",
-      area: "140 م²",
-      bedrooms: 3,
-      bathrooms: 2,
-      type: "للبيع",
+     
     },
-    {
-      image: property2,
-      title: "فيلا مستقلة",
-      location: "التجمع الخامس - كمبوند النخيل",
-      price: "18,500,000 ج.م",
-      area: "420 م²",
-      bedrooms: 4,
-      bathrooms: 4,
-      type: "للبيع",
-    },
-    {
-      image: property3,
-      title: "محل تجاري",
-      location: "القاهرة الجديدة - الحي التجاري",
-      price: "4,200,000 ج.م",
-      area: "85 م²",
-      type: "للبيع/إيجار",
-    },
+    
   ];
 
   return (
@@ -140,9 +116,8 @@ const Index = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {properties.map((property, index) => (
-              <PropertyCard key={index} {...property} />
-            ))}
+          
+          
           </div>
 
           <div className="text-center mt-12">
