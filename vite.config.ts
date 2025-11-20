@@ -32,3 +32,6 @@ export default defineConfig({
   },
   base: '/tariq-path-realty/',
 })
+
+
+// dfdfdfdf
